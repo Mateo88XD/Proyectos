@@ -1,49 +1,62 @@
-# 👨‍💻 Portafolio de Ciencia de Datos - Mateo Beltramone
+# Portafolio de Proyectos - Mateo Beltramone
 
-¡Hola! Soy Técnico Superior en Ciencias de Datos e Inteligencia Artificial, con un fuerte interés en el análisis predictivo, la visualización de datos y el aprendizaje automático. En este repositorio encontrarás una colección de proyectos desarrollados durante mi formación, aplicando técnicas de machine learning, procesamiento de lenguaje natural y visualización.
+¡Bienvenido/a! Soy **Técnico Superior en Ciencias de Datos e Inteligencia Artificial**, con conocimientos en análisis exploratorio, aprendizaje automático, procesamiento de lenguaje natural y visualización de datos.
 
----
-
-## 📊 Proyectos Destacados
-
-### 🗣️ Clasificación de Sentimientos en Reseñas de Películas
-**Técnicas usadas:** Preprocesamiento de texto (lemmatización, stemming, stopwords), Bolsa de Palabras, Multinomial Naive Bayes  
-**Descripción:** Se evaluó el impacto del preprocesamiento sobre las métricas de clasificación de sentimiento en español.  
+En este repositorio vas a encontrar una selección de los proyectos realizados durante mi formación, aplicando técnicas de Machine Learning, análisis de datos, visión computacional y NLP.
 
 ---
 
-### 🧠 Clasificación de Imágenes con CNNs (Fashion MNIST)
-**Técnicas usadas:** Redes Neuronales Convolucionales, Data Augmentation, Optimización  
-**Descripción:** Se compararon modelos baseline y mejorados para clasificar prendas de ropa del dataset Fashion MNIST.
+## 📊 Proyectos
+
+### 🗣️ Clasificación de reseñas de películas
+
+- **Descripción:** Se evaluó el impacto de diferentes técnicas de normalización textual (stopwords, lematización, stemming) sobre un clasificador Naive Bayes entrenado con reseñas en español.
+- **Técnicas:** Preprocesamiento de texto, Bolsa de Palabras, Multinomial Naive Bayes, comparación de métricas.
+- **Herramientas:** Python, NLTK, Scikit-learn, Google Colab
+- 📁 [Ver proyecto](./Clasificación%20de%20reseñas%20de%20películas)
 
 ---
 
-### 🗺️ Agrupamiento de Zonas para Optimizar Rutas de Inspección
-**Técnicas usadas:** Clustering (K-Means), visualización geográfica, Pandas  
-**Descripción:** Agrupamiento de viviendas para mejorar las rutas de inspección de medidores de agua en Jesús María.  
+### 👕 Clasificación de imágenes (Fashion MNIST)
+
+- **Descripción:** Se entrenaron distintos modelos de redes neuronales convolucionales (CNN) para clasificar imágenes del dataset Fashion MNIST. Se probó data augmentation y diferentes optimizadores.
+- **Técnicas:** CNN, Regularización, Optimización, Data Augmentation.
+- **Herramientas:** Python, Keras, TensorFlow, Matplotlib
+- 📁 [Ver proyecto](./Clasificación%20de%20imágenes%20Fashion%20MNIST)
 
 ---
 
-### 📈 Predicción de Desempeño Académico
-**Técnicas usadas:** Análisis Exploratorio, Regresión Lineal, Limpieza de Datos  
-**Descripción:** Se buscaron relaciones entre variables como asistencia, horas de estudio y rendimiento académico.  
+### 🗺️ Agrupamiento de viviendas – Municipalidad de Jesús María
+
+- **Descripción:** Se aplicó clustering (K-means) sobre datos georreferenciados para optimizar la inspección de medidores en zonas de la ciudad.
+- **Técnicas:** Clustering, visualización geográfica.
+- **Herramientas:** Python, Pandas, Folium
+- 📁 [Ver proyecto](./Clustering%20de%20viviendas%20Jesús%20María)
 
 ---
 
-## 🛠️ Tecnologías y Herramientas
+### 📈 Predicción de notas académicas
 
-- Python · Pandas · NumPy · Matplotlib · Seaborn  
-- Scikit-learn · NLTK · TensorFlow/Keras  
-- Git · Jupyter Notebook · Google Colab
-
----
-
-## Contacto
-
--  mateobeltramone2000@gmail.com
-- https://www.linkedin.com/in/mateo-beltramone-96a7ba24b
+- **Descripción:** Se analizaron datos de rendimiento académico de alumnos y se utilizaron técnicas de regresión para predecir calificaciones en función de asistencia y hábitos de estudio.
+- **Técnicas:** Análisis exploratorio, regresión lineal, limpieza de datos.
+- **Herramientas:** Python, Pandas, Seaborn
+- 📁 [Ver proyecto](./Predicción%20de%20notas%20académicas)
 
 ---
 
-Gracias por visitar mi portafolio 👋
+## 🛠️ Tecnologías utilizadas
 
+- **Lenguajes:** Python, SQL, HTML, JavaScript
+- **Librerías:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, NLTK, TensorFlow/Keras
+- **Herramientas:** Google Colab, Git, GitHub, Jupyter Notebook
+
+---
+
+## 📬 Contacto
+- ✉️ [Mail](mateobeltramone2000@gmail.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/mateo-beltramone)  
+- 🧠 [GitHub](https://github.com/Mateo88XD)
+
+---
+
+Gracias por visitar mi repositorio 👋
